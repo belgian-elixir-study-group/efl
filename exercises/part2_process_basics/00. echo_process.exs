@@ -1,3 +1,5 @@
+# GOAL: understanding the basics of concurrency primitives
+
 # There is nothing here for you to code. Run this code and understand what is going on
 
 defmodule Echo do

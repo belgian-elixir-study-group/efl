@@ -1,3 +1,5 @@
+# GOAL: maintaining state using processes
+
 # Add two more features to our counter:
 #
 # 0) Run and understand what this code does

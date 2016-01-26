@@ -1,3 +1,5 @@
+# GOAL: solving a slightly more advanced problem using recursion
+
 # Write a function which returns true if a string has the same number of
 # opening and closing parentheses:
 

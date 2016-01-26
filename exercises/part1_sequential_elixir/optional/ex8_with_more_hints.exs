@@ -1,3 +1,5 @@
+# GOAL: processing lists recursively, more pattern matching
+
 # Find a function in module List which would help you implement the following:
 
 defmodule ReduceList do

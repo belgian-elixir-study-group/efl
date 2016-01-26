@@ -1,3 +1,5 @@
+# GOAL: solving a simple problem using recursion
+
 # Implement and run a function sum(n) that uses recursion to
 # calculate the sum of the integers from 1 to n.
 # Make sure the function does not accept negative numbers.

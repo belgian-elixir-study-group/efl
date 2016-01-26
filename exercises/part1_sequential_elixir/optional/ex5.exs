@@ -1,3 +1,5 @@
+# GOAL: learning how to find and read the Elixir documentation
+
 # Find the library functions to do the following, and then use each in iex.
 
 

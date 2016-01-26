@@ -1,3 +1,5 @@
+# GOAL: understanding hwo the mailbox works and receiving messages
+
 # Write a function which reads the mailbox of the current process
 # and returns a list with these  messages
 
