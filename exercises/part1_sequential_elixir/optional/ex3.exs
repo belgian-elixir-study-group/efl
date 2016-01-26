@@ -1,3 +1,5 @@
+# GOAL: getting acquainted with the syntax and built-in operators
+
 # Write a function prefix that takes a string.
 # It should return a new function that takes a second string.
 # When that second function is called, it will return a

@@ -1,3 +1,4 @@
+# GOAL: getting acquainted with the syntax and built-in functions
 
 sum =
 

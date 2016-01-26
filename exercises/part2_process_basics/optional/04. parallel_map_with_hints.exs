@@ -1,3 +1,5 @@
+# GOAL: writing the "hello world" of concurrent programs
+
 #
 # Write a parallel map function which, given an enumerable and a function,
 # will apply the function to all items *concurrently* and return a list with

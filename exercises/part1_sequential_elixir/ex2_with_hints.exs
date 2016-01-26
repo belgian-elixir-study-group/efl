@@ -1,3 +1,5 @@
+# GOAL: understanding how pattern matching can handily replace conditionals
+
 defmodule FB do
 
   # Write a function that takes three arguments.
