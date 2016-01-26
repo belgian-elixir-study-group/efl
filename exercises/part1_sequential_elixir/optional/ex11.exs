@@ -1,0 +1,32 @@
+# Improve the previous exercise. Make sure that string " )  (" is invalid.
+# Start by copy-pasting your tail-recursive version.
+# Just one function clause will do the trick.
+
+defmodule Parentheses do
+
+  def balanced? (string) do
+    characters = String.codepoints(string)
+
+    count(characters, 0) == 0
+  end
+
+end
+
+
+ExUnit.start
+
+defmodule ParenthesesTest do
+  use ExUnit.Case
+
+  test "opening parentheses and closing parentheses are calculated correctly" do
+    assert  Parentheses.balanced?("wçih((rwkèdfn)slé)rЮh")
+    assert  ! Parentheses.balanced?("wçih((rwëkЭdfn)sle)r)h")
+    assert  ! Parentheses.balanced?("w((eih((rwödfn)sle)r)h")
+  end
+
+  test "a closing bracket before an opening bracket is caught" do
+
+    assert  ! Parentheses.balanced?(" )  (")
+
+  end
+end
