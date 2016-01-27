@@ -1,3 +1,4 @@
+# used by elixir_awesomeness-metaprogramming.exs
 defmodule Html do
 
   @external_resource tags_path = Path.join([__DIR__, "tags.txt"])
