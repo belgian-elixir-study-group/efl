@@ -12,7 +12,7 @@ $ h(Enum)
 
 # == Types ==
 
-Thy these out in iex:
+Try these out in iex:
 
 42
 34.2
