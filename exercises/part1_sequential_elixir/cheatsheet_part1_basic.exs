@@ -20,7 +20,7 @@ Try these out in iex:
 :an_atom
 
 
-# Tuples
+# Tuples: compound data type with a fixed number of terms
 {:ok, "foo", "baz"}
 
 # List
@@ -47,7 +47,6 @@ IO.inspect [1, 2, 3]
 
 [head, head2 | tail] = [1, 2, 3, 4]
 
-[head, head2 | tail] = [1, 2, 3, 4]
 
 
 a = 4
@@ -68,9 +67,7 @@ person[:name]
 
 # == Anonymous functions ==
 
-fn (x, y) ->
-  x + y
-end
+fn (x, y) -> x + y end
 
 # Assign an anonymous function to a variable
 
@@ -105,10 +102,12 @@ defmodule Factorial do
   def of(n), do: n * of(n-1)
 end
 
+Factorial.of(4)
+
 # Guards
 defmodule Factorial do
   def of(0), do: 1
-  def of(n) when is_integer(n) when n > 0 do
+  def of(n) when n > 0 do
     n * of(n-1)
   end
 end

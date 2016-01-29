@@ -32,7 +32,7 @@ Thy these out in iex:
 
 IO.inspect self
 
-# Tuples
+# Tuples: compound data type with a fixed number of terms
 {:ok, "foo", "baz"}
 
 # List
@@ -161,10 +161,12 @@ defmodule Factorial do
   def of(n), do: n * of(n-1)
 end
 
+Factorial.of(4)
+
 # Guards
 defmodule Factorial do
   def of(0), do: 1
-  def of(n) when is_integer(n) when n > 0 do
+  def of(n) when n > 0 do
     n * of(n-1)
   end
 end
