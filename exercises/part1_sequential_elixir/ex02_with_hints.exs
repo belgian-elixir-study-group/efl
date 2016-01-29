@@ -23,5 +23,9 @@ defmodule SumTest do
     assert Sum.sum(1)  == 1
     assert Sum.sum(5)  == 15
     assert Sum.sum(10) == 55
+
+    assert_raise FunctionClauseError, fn ->
+        Sum.sum(-1)
+    end
   end
 end
